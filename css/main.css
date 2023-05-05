@@ -60,11 +60,11 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: white;
+    background-color: rgb(70, 22, 22);
   }
 
   #column-1 {
-    background-color:rgb(7, 60, 107) ;
+    background-color: rgb(7, 60, 107) ;
   }
 
   #column-2 {
@@ -73,12 +73,16 @@ footer {
 
   #column-3 {
     background-color: blueviolet;
+    width: 100%;
   }
 
   footer {
-    background-color: whitesmoke;
+    background-color: rgb(70, 22, 22);
   }
   
+  .col-3{
+    width: 50%;
+  }
 }
 
 
@@ -98,10 +102,14 @@ footer {
 
   #column-3 {
     background-color: burlywood;
+    width: 33.33%;
   }
 
   footer {
-    background-color: saddlebrown;
+    background-color: beige;
   }
-   
+ 
+  .col-3{
+    width: 33.33%;
+  }
 }
